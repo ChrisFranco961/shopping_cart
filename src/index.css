@@ -5,27 +5,24 @@ body{
   font-weight: 1000;
   font-style: normal;
   
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background-color: white;
   margin: 0;
 }
-#homecontainer{
-  color:darkslateblue;
-  
-  height: 100vh;
-  width:  100vw;
+#homecontainer {
+  color: darkslateblue;
+  height: 100vh; 
+  width: 100vw;
   background-image: url(./assets/homeback.jpg);
-  background-size:cover;
-  background-repeat:space;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  
+  justify-content: center;
+  align-items: center; 
 }
 #homecontainer>button{
   
@@ -67,12 +64,12 @@ to{
   }
   to{
     
-    transform: translate(-80vw,30vh);
+    transform: translate(-80vh,30vh);
   }
   
 }
 #hometitle{
-  transform: translateY(-18vh);
+  transform: translateY(-20vh);
   font-size: 5vh;
   font-weight: 600;
   background-color: rgba(235, 14, 168, 0.6);
