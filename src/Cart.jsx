@@ -16,6 +16,7 @@ export function Cart(){
              {console.log(each)}
              <p id="cartpriceeach">{each.price}$</p>
              <button onClick={()=>{
+                info[2][1](info[2][0]-1)
                 setarray(array.filter(item=>item !==each))
              }}>Remove</button>
            
@@ -25,6 +26,7 @@ export function Cart(){
          <button id="checkout" onClick={()=>{
             setcost(0)
             setarray([])
+            info[2][1](0)
     
          }}>Checkout</button>
     </div>

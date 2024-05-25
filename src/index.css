@@ -226,3 +226,16 @@ margin: 0;
     
   }
 }
+#counter{
+
+  transform: translateY(-5vh)
+                translateX(.5vh);
+                color: yellow;
+}
+.counter{
+  display: none;
+}
+.countervisible{
+  display: block;
+
+}

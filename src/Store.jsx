@@ -27,9 +27,10 @@ export function Store(info){
              <p>{each.title}</p>
              <p>{each.price}</p>
              <button id="add" onClick={()=>{
+                hello[2][1](hello[2][0]+1)
                 hello[0][1](hello[0][0]+each.price)
                 hello[1][1]([...hello[1][0],each])
-                console.log(hello[1][0])
+                console.log(hello[2][0])
                 }
              }>Add to Cart</button>           
          </div>
